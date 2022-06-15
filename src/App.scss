@@ -1,0 +1,36 @@
+.App {
+  text-align: center;
+
+  .theme-selector {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    max-width: 1200px;
+    margin: 20px auto;
+    button {
+      width: 20px;
+      height: 20px;
+      cursor: pointer;
+      margin-left: 15px;
+      border-radius: 50%;
+    }
+  }
+
+  nav {
+    background: #89bd9e;
+    padding: 10px;
+    margin-top: 1px;
+    margin-bottom: 10px;
+    a {
+      color: #0d1b2a;
+      text-decoration: none;
+      padding: 10px;
+      font-size: 1.2em;
+      font-weight: bold;
+      &:hover {
+        background: #e0e1dd;
+        color: #333;
+      }
+    }
+  }
+}
